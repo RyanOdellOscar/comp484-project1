@@ -1,5 +1,5 @@
 html, body {
-	background: #663399; /* Beccapurple */
+	background: #ee3b17;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: rgb(107, 107, 132);
+	color: rgb(11, 11, 11);
 }
 body {
 	font-family: Verdana, Geneva, sans-serif;
@@ -15,17 +15,18 @@ body {
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 2.5% 2.5% 0;
-	background: white;
+	margin-bottom: 5em;
+	padding: 2.5% 2.5% 0 2.5%;
+	background: rgba(116, 240, 236, 0.936);
 	line-height: 1.8;
 }
 h1 {
-	font: 1.6em Verdana, Geneva, sans-serif;
+	font: 3.0em Verdana, Geneva, sans-serif;
 	margin-bottom: .4em;
-	color: rgb(83, 104, 138);
+	color: rgb(10, 10, 10);
 }
 h2 {
-	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	font: 1.5em Georgia, "Times New Roman", Times, serif;
 	margin-bottom: .2em;
 }
 h3 {
@@ -35,10 +36,10 @@ p {
 	margin-bottom: 1em;
 }
 a {
-	color: rgb(184, 126, 84);
+	color: rgb(244, 19, 165);
 }
 a:hover {
-	color: rgb(120, 97, 55);
+	color: rgb(55, 120, 83);
 }
 pre {
 	font-size: 1.4em;
@@ -59,23 +60,23 @@ pre.wrong {
 pre.correct {
 	border-left-color: green;
 }
+dl {
+	margin-bottom: 5em;
+	padding-bottom: 5em;
+}
 dt {
-	font-style: italic;
 	font-size:1.2em;
 }
 dd {
-	margin-bottom: 1.4em;
+	margin: 0;
 }
 table {
 	margin-top: 1em;
+	margin-bottom: 2em;
 }
-caption {
-	margin: 0;
-	padding: 0;
-	margin-bottom: 1em;
-	text-align: left;
-}
+
 td, th {
+	text-align: center;
 	padding: 10px;
 }
 .center {
